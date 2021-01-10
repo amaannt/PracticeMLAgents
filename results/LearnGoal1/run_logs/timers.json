@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1609904713",
+        "python_version": "3.8.5 (default, Sep  3 2020, 21:29:08) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\cullb\\Documents\\GitHub\\PracticeMLAgents\\venv\\Scripts\\mlagents-learn --run-id=LearnGoal1",
+        "mlagents_version": "0.23.0",
+        "mlagents_envs_version": "0.23.0",
+        "communication_protocol_version": "1.3.0",
+        "pytorch_version": "1.7.0+cu110",
+        "numpy_version": "1.18.5",
+        "end_time_seconds": "1609904775"
+    },
+    "total": 61.9408917,
+    "count": 1,
+    "self": 0.028577499999997258,
+    "children": {
+        "run_training.setup": {
+            "total": 0.014248100000000097,
+            "count": 1,
+            "self": 0.014248100000000097
+        },
+        "TrainerController.start_learning": {
+            "total": 61.8980661,
+            "count": 1,
+            "self": 0.0003795999999951505,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 61.896378999999996,
+                    "count": 1,
+                    "self": 61.896378999999996
+                },
+                "TrainerController._save_models": {
+                    "total": 0.001307500000010009,
+                    "count": 1,
+                    "self": 0.001307500000010009
+                }
+            }
+        }
+    }
+}

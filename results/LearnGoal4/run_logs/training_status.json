@@ -1,0 +1,30 @@
+{
+    "MoveToGoal": {
+        "checkpoints": [
+            {
+                "steps": 499979,
+                "file_path": "results\\LearnGoal4\\MoveToGoal\\MoveToGoal-499979.onnx",
+                "reward": -0.43013100436681223,
+                "creation_time": 1609907369.3601248
+            },
+            {
+                "steps": 500038,
+                "file_path": "results\\LearnGoal4\\MoveToGoal\\MoveToGoal-500038.onnx",
+                "reward": -0.4282608695652174,
+                "creation_time": 1609907369.472067
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500038,
+            "file_path": "results\\LearnGoal4\\MoveToGoal.onnx",
+            "reward": -0.4282608695652174,
+            "creation_time": 1609907369.472067
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.0+cu110",
+        "tensorflow_version": -1
+    }
+}
